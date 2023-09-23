@@ -29,7 +29,7 @@ describe('Dependent tests bad practice', () => {
       
 
     //Deletes the note
-    cy.get('.list-group').contains('My note updated').clic() 
+    cy.get('.list-group').contains('My note updated').click()
     cy.contains('Delete').click()
 
     //Asserts the list has at least one itm before asserting the note deletion

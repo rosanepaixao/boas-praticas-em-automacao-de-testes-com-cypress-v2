@@ -4,7 +4,8 @@ module.exports = defineConfig({
   e2e: {},
   video: false,
  
-  requestTimeout: 15000
+  defaultCommandTimeout: 40000,
+
     
   })
 
